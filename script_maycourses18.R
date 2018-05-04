@@ -1,4 +1,4 @@
-           ##03/05/2018####
+﻿           ##03/05/2018####
   #Creation of a project on GitHUB
 # near the user name on github, choose a title of your choice ( without space or special character)
 # On the "optional description" (type what you want)
@@ -29,4 +29,16 @@
       #spatstat: tout analyse spatial
   #Creation of a package called "multiple"
 devtools:: create(path= "multiple") #l'architechture necessaire à la création d'un package
-           
+ 
+#pour documenté en package il faut toujours commencer par:
+  #'(space bar); following the structure in the lesson.
+
+#Creation de la fonction double (la on creer un nouveau script)
+Double <- function(number) {
+return(2 * number)
+}
+#Tout les codes R on le met dans le reptoire R
+
+#Documentaton
+#utilisé la baguette magique pour inserer dabord le squeleton avant de faire un copier coller
+#pour ajouter un nouveau parametre il faut le faire en bas du premier parametre et donner un nom.
