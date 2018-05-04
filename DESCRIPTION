@@ -1,9 +1,9 @@
-Package: multiple
+Package: Multiple
+Type:Package
 Title: Compute multiple
 Version: 0.0.0.9000
 Authors@R: person("Ruth", "Tchana", email = "ruth.tchana-wandji@ecofog.gf", role = c("aut", "cre"))
-Description: Efficiently calculate multiples of numbers.
-following me et al. 2018
+Description: Efficiently calculate multiples of numbers.following me et al. 2018
 Depends: R (>= 3.5.0)
 License: What license is it under?
 Encoding: UTF-8
